@@ -8,8 +8,8 @@ MAINTAINER oceanwu<wuhaiyang1213@gmail.com>
 
 COPY ./run.sh /
 
-ADD http://dl.cnezsoft.com/zentao/8.2.beta/ZenTaoPMS.8.2.beta.zbox_64.tar.gz /
+ADD http://dl.cnezsoft.com/zentao/8.2.6/ZenTaoPMS.8.2.6.zbox_64.tar.gz /
 
-RUN tar zxvf ZenTaoPMS.8.2.beta.zbox_64.tar.gz -C /opt/
+RUN tar zxvf ZenTaoPMS.8.2.6.zbox_64.tar.gz -C /opt/
 
 ENTRYPOINT ["bash", "run.sh"]
